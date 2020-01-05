@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Inter var";
+  src: url("./../../../Inter.var.woff2");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  letter-spacing: -0.011em;
+  font-family: "Inter var", sans-serif;
+  font-size: 16px;
+  color: #34495e;
+  background: #f8f9fa;
+}
+
+svg {
+  fill: #34495e;
+}
+
+.legend-value {
+  fill: #576574;
+  font-size: 0.8em;
+}
+
+.legend-value:first-of-type {
+  text-anchor: end;
+}
+
+.legend-byline {
+  fill: #576574;
+  opacity: 0.6;
+  text-anchor: middle;
+  font-size: 0.7em;
+}
+
+.legend-title {
+  fill: #576574;
+  text-anchor: middle;
+  font-weight: 900;
+  font-size: 0.95em;
+  letter-spacing: 0.01em;
+}
